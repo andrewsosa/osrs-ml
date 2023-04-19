@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "osrs-ml"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "osrs_ml"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+metaflow = "^2.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
