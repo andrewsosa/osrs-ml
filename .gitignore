@@ -1,2 +1,13 @@
 /data
 .venv/
+.venv
+*.pyc
+node_modules
+.vscode
+.envrc
+*.json
+.pytest_cache
+.metaflow
+.dvc
+clickhouse/
+store
